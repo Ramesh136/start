@@ -1,5 +1,6 @@
 console.log('Hello world'); 
 document.title = 'Hello'
 
-var head1 = document.getElementById('header-title');
-head1.style.border = 'solid 1px black'
+var head1 = document.getElementsByClassName('list-group-item')
+console.log(head1)
+head1[2].style.backgroundColor = 'green'
